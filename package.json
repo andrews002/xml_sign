@@ -10,8 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fidm/x509": "^1.2.1",
     "google-p12-pem": "^3.0.3",
+    "node-forge": "^0.10.0",
     "openssl-nodejs": "^1.0.5",
+    "pem": "^1.14.4",
     "pfx-to-pem": "^1.0.2",
     "xml-crypto": "^2.0.0"
   }
