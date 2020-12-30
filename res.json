@@ -1,0 +1,2086 @@
+{
+    "soap:Envelope": {
+        "_attributes": {
+            "xmlns:soap": "http://schemas.xmlsoap.org/soap/envelope/"
+        },
+        "soap:Body": {
+            "ns2:pesquisarEstoqueGidResponse": {
+                "_attributes": {
+                    "xmlns:ns2": "http://remote.cdv.procergs.com/",
+                    "xmlns:ns3": "http://www.w3.org/2000/09/xmldsig#"
+                },
+                "pesquisarEstoqueGid": {
+                    "CDV": {
+                        "IDT_SISTEMA_RETORNO": {
+                            "_text": "GID-DESMANCHES"
+                        },
+                        "SENHA_RETORNO": {},
+                        "COD_AMBIENTE": {
+                            "_text": "1"
+                        }
+                    },
+                    "STATUS": {
+                        "COD_STATUS": {
+                            "_text": "1"
+                        },
+                        "NOME_STATUS": {
+                            "_text": "Solicitação de pesquisa de estoque atendida com sucesso."
+                        }
+                    },
+                    "ESTOQUE": [
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "67"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta Traseira Direita"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "MERCEDES BENZ"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "A 160"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2004"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "DJG3172"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "1"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BMMF33E74A053916"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "69"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Porta Traseira Direita"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "MERCEDES BENZ"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "A 160"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2004"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "DJG3172"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "1"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BMMF33E74A053916"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "74"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Tampa Porta-Malas [ Não apta à  reposição ]"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "MERCEDES BENZ"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "A 160"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2004"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "DJG3172"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "2"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "1"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BMMF33E74A053916"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "76"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C) [ Não apta à  reposição ]"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Tampa Porta-Malas"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "MERCEDES BENZ"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "A 160"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2004"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "DJG3172"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "2"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "1"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BMMF33E74A053916"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "79"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta Traseira Esquerda"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "MERCEDES BENZ"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "A 160"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2004"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "DJG3172"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "1"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BMMF33E74A053916"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "82"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Porta Traseira Esquerda"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "MERCEDES BENZ"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "A 160"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2004"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "DJG3172"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "1"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BMMF33E74A053916"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "86"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta Dianteira Esquerda"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "MERCEDES BENZ"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "A 160"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2004"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "DJG3172"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "1"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BMMF33E74A053916"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "89"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Porta Dianteira Esquerda"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "MERCEDES BENZ"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "A 160"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2004"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "DJG3172"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "1"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BMMF33E74A053916"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "178"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta Dianteira Direita"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "VOLKSWAGEN"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "SANTANA GLS"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "1989"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "CID3638"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "468"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BWZZZ32ZKP041522"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "181"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Porta Dianteira Direita"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "VOLKSWAGEN"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "SANTANA GLS"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "1989"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "CID3638"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "468"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BWZZZ32ZKP041522"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "190"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Tampa Porta-Malas"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "VOLKSWAGEN"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "SANTANA GLS"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "1989"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "CID3638"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "468"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BWZZZ32ZKP041522"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "192"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Tampa Porta-Malas"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "VOLKSWAGEN"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "SANTANA GLS"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "1989"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "CID3638"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "468"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BWZZZ32ZKP041522"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "318"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Tampa Porta-Malas"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FIAT"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "UNO ELECTRONIC"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "1995"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "ICJ1722"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "467"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BD146000R5348458"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "509"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta Traseira Direita"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FORD"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "ECOSPORT XLS 1.6L"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2004"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "AKU1395"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Camioneta"
+                            },
+                            "COD_NOTA": {
+                                "_text": "453"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BFZE12NX48502745"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "511"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Porta Traseira Direita"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FORD"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "ECOSPORT XLS 1.6L"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2004"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "AKU1395"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Camioneta"
+                            },
+                            "COD_NOTA": {
+                                "_text": "453"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BFZE12NX48502745"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "518"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta Traseira Esquerda"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FORD"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "ECOSPORT XLS 1.6L"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2004"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "AKU1395"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Camioneta"
+                            },
+                            "COD_NOTA": {
+                                "_text": "453"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BFZE12NX48502745"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "520"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Porta Traseira Esquerda"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FORD"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "ECOSPORT XLS 1.6L"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2004"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "AKU1395"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Camioneta"
+                            },
+                            "COD_NOTA": {
+                                "_text": "453"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BFZE12NX48502745"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "553"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Tampa Porta-Malas"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FORD"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "ECOSPORT XLS 1.6L"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2004"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "AKU1395"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Camioneta"
+                            },
+                            "COD_NOTA": {
+                                "_text": "453"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BFZE12NX48502745"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "697"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Tampa Porta-Malas"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FORD"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "FIESTA SEDAN1.6FLEX"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2008"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "AOM0661"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "471"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BFZF26P788082544"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "874"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Tampa Porta-Malas"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "GM"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "CORSA HATCH SS"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2008"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "EBP0921"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "469"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BGXN68G08C157330"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "879"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C) [ Não apta à  reposição ]"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Porta Traseira Esquerda"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "GM"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "CORSA HATCH SS"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2008"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "EBP0921"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "2"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "469"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BGXN68G08C157330"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "971"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta-luvas"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "GM"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "CORSA HATCH SS"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2008"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "EBP0921"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "469"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BGXN68G08C157330"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "1043"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta Traseira Direita"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FORD"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "ECOSPORT FSL1.6FLEX"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2011"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "NTF2788"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Camioneta"
+                            },
+                            "COD_NOTA": {
+                                "_text": "470"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BFZE55P8B8588607"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "1045"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Porta Traseira Direita"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FORD"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "ECOSPORT FSL1.6FLEX"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2011"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "NTF2788"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Camioneta"
+                            },
+                            "COD_NOTA": {
+                                "_text": "470"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BFZE55P8B8588607"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "1150"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta-luvas"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FORD"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "ECOSPORT FSL1.6FLEX"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2011"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "NTF2788"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Camioneta"
+                            },
+                            "COD_NOTA": {
+                                "_text": "470"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BFZE55P8B8588607"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "1218"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta Traseira Direita"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FIAT"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "UNO MILLE WAY ECON"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2010"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "IPT5443"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "474"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BD15844AA6276076"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "1221"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Porta Traseira Direita"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FIAT"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "UNO MILLE WAY ECON"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2010"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "IPT5443"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "474"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BD15844AA6276076"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "1234"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta Traseira Esquerda"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FIAT"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "UNO MILLE WAY ECON"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2010"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "IPT5443"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "474"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BD15844AA6276076"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "1237"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Porta Traseira Esquerda"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FIAT"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "UNO MILLE WAY ECON"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2010"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "IPT5443"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "474"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BD15844AA6276076"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "1713"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta-luvas"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FIAT"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "STRADA FIRE FLEX"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2012"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "AUF6837"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Caminhonete"
+                            },
+                            "COD_NOTA": {
+                                "_text": "472"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BD27803MC7419348"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "1939"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta Dianteira Direita"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "VOLKSWAGEN"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "SANTANA"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "1998"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "CPW0956"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "483"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BWZZZ327VP035160"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "1942"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Porta Dianteira Direita"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "VOLKSWAGEN"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "SANTANA"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "1998"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "CPW0956"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "483"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BWZZZ327VP035160"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "1964"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta-luvas"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "VOLKSWAGEN"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "SANTANA"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "1998"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "CPW0956"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "483"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BWZZZ327VP035160"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "2031"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta Dianteira Direita"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FIAT - IMP."
+                            },
+                            "NOME_MODELO": {
+                                "_text": "SIENA ELX"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2001"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "MBA1213"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "482"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "8AP17202416013157"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "2034"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Porta Dianteira Direita"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FIAT - IMP."
+                            },
+                            "NOME_MODELO": {
+                                "_text": "SIENA ELX"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2001"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "MBA1213"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "482"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "8AP17202416013157"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "2050"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Tampa Porta-Malas"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FIAT - IMP."
+                            },
+                            "NOME_MODELO": {
+                                "_text": "SIENA ELX"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2001"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "MBA1213"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "482"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "8AP17202416013157"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "2052"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Tampa Porta-Malas"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FIAT - IMP."
+                            },
+                            "NOME_MODELO": {
+                                "_text": "SIENA ELX"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2001"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "MBA1213"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "482"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "8AP17202416013157"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "2055"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta Traseira Esquerda"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FIAT - IMP."
+                            },
+                            "NOME_MODELO": {
+                                "_text": "SIENA ELX"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2001"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "MBA1213"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "482"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "8AP17202416013157"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "2058"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Porta Traseira Esquerda"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FIAT - IMP."
+                            },
+                            "NOME_MODELO": {
+                                "_text": "SIENA ELX"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2001"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "MBA1213"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "482"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "8AP17202416013157"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "2119"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta-luvas"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FIAT - IMP."
+                            },
+                            "NOME_MODELO": {
+                                "_text": "SIENA ELX"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2001"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "MBA1213"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "482"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "8AP17202416013157"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "2742"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta-luvas"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FORD - IMP."
+                            },
+                            "NOME_MODELO": {
+                                "_text": "FOCUS 2.0L FC"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2009"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "EGT2897"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "478"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "8AFFZZFFC9J231971"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "2901"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta-luvas"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "FIAT"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "STRADA ADVENTURE CD"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2012"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "BAE1415"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Caminhonete"
+                            },
+                            "COD_NOTA": {
+                                "_text": "477"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BD27844PC7519409"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "2964"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Tampa Porta-Malas"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "GM"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "MONTANA SPORT 1"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2011"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "MIW0449"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Caminhonete"
+                            },
+                            "COD_NOTA": {
+                                "_text": "476"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BGCS80X0BB225834"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "2966"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Tampa Porta-Malas"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "GM"
+                            },
+                            "NOME_MODELO": {
+                                "_text": "MONTANA SPORT 1"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2011"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "MIW0449"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Caminhonete"
+                            },
+                            "COD_NOTA": {
+                                "_text": "476"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "9BGCS80X0BB225834"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "3208"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta Dianteira Direita"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "HYUNDAI - IMP."
+                            },
+                            "NOME_MODELO": {
+                                "_text": "I30 2.0"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2010"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "BAA0820"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "475"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "KMHDC51EAAU203145"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "3210"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Porta Dianteira Direita"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "HYUNDAI - IMP."
+                            },
+                            "NOME_MODELO": {
+                                "_text": "I30 2.0"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2010"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "BAA0820"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "475"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "KMHDC51EAAU203145"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "3215"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta Traseira Direita"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "HYUNDAI - IMP."
+                            },
+                            "NOME_MODELO": {
+                                "_text": "I30 2.0"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2010"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "BAA0820"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "475"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "KMHDC51EAAU203145"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "3217"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C)"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Porta Traseira Direita"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "HYUNDAI - IMP."
+                            },
+                            "NOME_MODELO": {
+                                "_text": "I30 2.0"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2010"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "BAA0820"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "475"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "KMHDC51EAAU203145"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "3233"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Porta Dianteira Esquerda"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Conj. Chassi/Monobloco"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "HYUNDAI - IMP."
+                            },
+                            "NOME_MODELO": {
+                                "_text": "I30 2.0"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2010"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "BAA0820"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "1"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "N"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "475"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "KMHDC51EAAU203145"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "N"
+                            }
+                        },
+                        {
+                            "COD_ESTOQUE": {
+                                "_text": "3235"
+                            },
+                            "NOME_PECA": {
+                                "_text": "Estrutura Porta (C) [ Não apta à  reposição ]"
+                            },
+                            "NOME_ORIGINARIO": {
+                                "_text": "Porta Dianteira Esquerda"
+                            },
+                            "NOME_MARCA": {
+                                "_text": "HYUNDAI - IMP."
+                            },
+                            "NOME_MODELO": {
+                                "_text": "I30 2.0"
+                            },
+                            "ANO_MODELO": {
+                                "_text": "2010"
+                            },
+                            "PLACA_VEICULO": {
+                                "_text": "BAA0820"
+                            },
+                            "SITUACAO_PECA": {
+                                "_text": "2"
+                            },
+                            "PECA_ACOPLADA": {
+                                "_text": "S"
+                            },
+                            "TXT_TIPO_VEICULO": {
+                                "_text": "Automóvel"
+                            },
+                            "COD_NOTA": {
+                                "_text": "475"
+                            },
+                            "CHASSI_VEICULO": {
+                                "_text": "KMHDC51EAAU203145"
+                            },
+                            "ITEM_CONTROLADO": {
+                                "_text": "S"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
